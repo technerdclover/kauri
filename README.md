@@ -8,7 +8,7 @@ Kauri, otherwise known as the Kauri Programming Language, is a programming langu
 Kauri is built on Python, which means that it will take a hit performance-wise, but otherwise allows for easy debugging and the addition of new functions. Below is an example of a Kauri script, using the `.kri` extension.
 ```kauri
 type Person: struct = {
-  name: str
+  name: str,
   age: int
 }
 
