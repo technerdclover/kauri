@@ -1,5 +1,5 @@
 # Kauri
-Where nature meets programming.
+When programming feels natural.
 
 ---
 
