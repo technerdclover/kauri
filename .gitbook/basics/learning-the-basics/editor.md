@@ -58,7 +58,7 @@ println("The score value is: <$score>");
 
 
 
-[^1]: **prompt**
+[^1]: <kbd>**prompt**</kbd>
 
     Waits for the user to type something.
 

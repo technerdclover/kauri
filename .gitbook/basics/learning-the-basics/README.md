@@ -35,7 +35,7 @@ Still confused? Don't worry, as some functions can be clicked on to view more in
 
     **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
 
-[^3]: **prompt**
+[^3]: <kbd>**prompt**</kbd>
 
     Waits for the user to type something.
 
