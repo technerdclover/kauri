@@ -15,7 +15,7 @@ Note: Syntax highlighting might be inconsistent.
 
 To get an input, you can use the [`prompt`](#user-content-fn-1)[^1] function. This function can be used with and without a prompt specified, though it is recommended to use a prompt when asking for an input.
 
-{% code title="prompt.kri" %}
+{% code title="input_output.kri" %}
 ```typescript
 // This will retrieve the user's input without a prompt.
 prompt();
@@ -29,7 +29,7 @@ prompt("Type something: ");
 
 To output something, whether it be a variable, equation, or string, you can use the [`print`](#user-content-fn-2)[^2] and [`println`](#user-content-fn-3)[^3] functions. Using [`print`](#user-content-fn-2)[^2] will print the value without a newline, while [`println`](#user-content-fn-3)[^3] will add a newline at the end.
 
-<pre class="language-typescript" data-title="print_println.kri"><code class="lang-typescript">// Here's some examples of <a data-footnote-ref href="#user-content-fn-2">print</a>:
+<pre class="language-typescript" data-title="input_output.kri"><code class="lang-typescript">// Here's some examples of <a data-footnote-ref href="#user-content-fn-2">print</a>:
 print(x); // Assumes that x has a value, we'll touch on that later.
 print(3 + 3, 9 - 3);
 print("Hello, World!");
@@ -52,7 +52,7 @@ println("Hello, World!");
 
 When printing values, you can also use string interpolation, which will swap out a text segment with a variable. If the variable referenced doesn't exist, or hasn't been defined before the statement has been executed, it will replace the section with [`void`](#user-content-fn-4)[^4].
 
-{% code title="println.kri" %}
+{% code title="input_output.kri" %}
 ```typescript
 // This will print the value of the "score" variable along with some text.
 println("The score value is: <$score>");
