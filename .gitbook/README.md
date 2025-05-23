@@ -1,7 +1,7 @@
 ---
 icon: hand-wave
 cover: .gitbook/assets/output-onlinepngtools (4).png
-coverY: 107
+coverY: 134.65277777777777
 layout:
   cover:
     visible: true
