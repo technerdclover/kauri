@@ -1,7 +1,7 @@
 ---
 icon: hand-wave
-cover: .gitbook/assets/Copy of Copy of Kauri (1920 x 720 px) (Twitch Banner) (2).png
-coverY: 78
+cover: .gitbook/assets/output-onlinepngtools (4).png
+coverY: 107
 layout:
   cover:
     visible: true
