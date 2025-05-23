@@ -74,7 +74,7 @@ println("The score value is: <$score>")
     \
     **Arguments:**
 
-    <kbd>text:</kbd> Any string, expression, or variable. Can add multiple by separating with commas.
+    <kbd>**text**</kbd> Any string, expression, or variable. Can add multiple by separating with commas.
 
 [^3]: <kbd>**println**</kbd>
 
