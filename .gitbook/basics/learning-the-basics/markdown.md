@@ -11,7 +11,7 @@ icon: block-quote
 
 Making variables is simple with Kauri. You can make mutable or immutable variables, which define whether or not they can be modified after creation. To make a variable, check the code below.
 
-{% code title="" %}
+{% code title="assign_variable.kri" %}
 ```typescript
 // Using let will create mutable variables, which can be changed later.
 let five: int = 5;
