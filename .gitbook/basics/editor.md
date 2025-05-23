@@ -13,7 +13,7 @@ Note: Syntax highlighting might be inconsistent.
 
 ## Getting Input
 
-To get an input, you can use the `prompt` function. This function can be used with and without a prompt specified, though it is recommended to use a prompt when asking for an input.
+To get an input, you can use the [`prompt`](#user-content-fn-1)[^1] function. This function can be used with and without a prompt specified, though it is recommended to use a prompt when asking for an input.
 
 ```typescript
 // This will retrieve the user's input without a prompt.
@@ -25,12 +25,12 @@ prompt("Type something: ");
 
 ## Sending Output
 
-To output something, whether it be a variable, equation, or string, you can use the `print` and `println` functions. Using `print` will print the value without a newline, while `println` will add a newline at the end.
+To output something, whether it be a variable, equation, or string, you can use the [`print`](#user-content-fn-2)[^2] and `println` functions. Using [`print`](#user-content-fn-2)[^2] will print the value without a newline, while `println` will add a newline at the end.
 
 ```typescript
 // Here's some examples of print:
 print(x); // Assumes that x has a value, we'll touch on that later.
-print(3 + 3);
+print(3 + 3, 9 - 3);
 print("Hello, World!");
 
 /* Result would be:
@@ -39,7 +39,7 @@ print("Hello, World!");
 
 // Using println works the same way, simply swap it out.
 println(x);
-println(3 + 3);
+println(3 + 3, 9 - 3);
 println("Hello, World!");
 
 /* Result would be: 
@@ -56,3 +56,26 @@ When printing values, you can also use string interpolation, which will swap out
 println("The score value is: <$score>")
 ```
 
+
+
+[^1]: **prompt**
+
+    Waits for the user to type something.
+
+    \
+    **Arguments:**
+
+    <kbd>prompt</kbd> <mark style="color:blue;">`string`</mark>
+
+[^2]: <kbd>**print**</kbd>
+
+    Prints text into the CLI.
+
+    \
+    **Arguments:**
+
+    <kbd>text</kbd> <mark style="color:blue;">`string`</mark>&#x20;
+
+    <kbd>text</kbd> <mark style="color:blue;">`expression`</mark>&#x20;
+
+    <kbd>text</kbd> <mark style="color:blue;">`variable`</mark>
