@@ -49,7 +49,7 @@ println("Hello, World!");
 */
 ```
 
-When printing values, you can also use string interpolation, which will swap out a text segment with a variable.&#x20;
+When printing values, you can also use string interpolation, which will swap out a text segment with a variable. If the variable referenced doesn't exist, or hasn't been defined before the statement has been executed, it will replace the section with `void`.
 
 ```typescript
 // This will print the value of the "score" variable along with some text.
