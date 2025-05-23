@@ -23,7 +23,7 @@ const tau: float = 6.28319;
 const random: str = "Hello, World! You can't change this!";
 ```
 
-As mentioned in the code comments, you can override variables that are mutable. It’s easy to do this, and all it requires is redefining the variable with either `const` or `let` statements.
+As mentioned in the code comments, you can override variables that are mutable. It’s easy to do this, and all it requires is redefining the variable with either [`const`](#user-content-fn-1)[^1] or [`let`](#user-content-fn-2)[^2] statements.
 
 ```typescript
 // Here we'll define a variable called "x" and then override it with let.
@@ -43,3 +43,43 @@ const x: int = 5; // x is set to 5
 const x: int = 8; // x is now set to 8
 ```
 {% endhint %}
+
+[^1]: <kbd>**const**</kbd>&#x20;
+
+    Defines an immutable variable.
+
+
+
+    **Syntax:**
+
+    `const name: type = value;`&#x20;
+
+
+
+    **Values:**
+
+    `name` Any text starting with a letter and ending with a letter, number, or underscore.
+
+    `type` Any type. Expects `str`, `int`, `float`, `struct`, or `void`.
+
+    `value` Any value or statement that uses the expected type.
+
+[^2]: <kbd>**let**</kbd>
+
+    Defines a mutable variable.
+
+
+
+    **Syntax:**
+
+    `let name: type = value;`&#x20;
+
+
+
+    **Values:**
+
+    `name` Any text starting with a letter and ending with a letter, number, or underscore.
+
+    `type` Any type. Expects `str`, `int`, `float`, `struct`, or `void`.
+
+    `value` Any value or statement that uses the expected type.
