@@ -11,5 +11,35 @@ As a beginner, the Kauri programming language might look intimidating. There's a
 
 Firstly, you'll need to learn what some of the basic functions _are_. They'll be explained in more detail later, but for know, knowing what a function generally does is your best interest.
 
-<table><thead><tr><th width="300.6414794921875">Function</th><th>Usage</th></tr></thead><tbody><tr><td><code>print</code>, <code>println</code></td><td>Used for printing text onto the screen.</td></tr><tr><td><code>prompt</code></td><td>Used to get the user's input.</td></tr><tr><td><code>let</code>, <code>const</code></td><td>Used to create variables.</td></tr><tr><td><code>fn</code></td><td>Used to create a function.</td></tr><tr><td><code>import</code>, <code>import as</code></td><td>Used to import Kauri Extensions (<code>.krx</code> files)</td></tr></tbody></table>
+<table><thead><tr><th width="300.6414794921875">Function</th><th>Usage</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1"><code>print</code></a>, <a data-footnote-ref href="#user-content-fn-2"><code>println</code></a></td><td>Used for printing text onto the screen.</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3"><code>prompt</code></a></td><td>Used to get the user's input.</td></tr><tr><td><code>let</code>, <code>const</code></td><td>Used to create variables.</td></tr><tr><td><code>fn</code></td><td>Used to create a function.</td></tr><tr><td><code>import</code>, <code>import as</code></td><td>Used to import Kauri Extensions (<code>.krx</code> files)</td></tr></tbody></table>
 
+{% hint style="info" %}
+Still confused? Don't worry, as some functions can be clicked on to view more information about them. This will occur in later pages as well, just in case you forget what a certain function does.
+{% endhint %}
+
+[^1]: <kbd>**print**</kbd>
+
+    Prints text into the CLI.
+
+    \
+    **Arguments:**
+
+    **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
+
+[^2]: <kbd>**println**</kbd>
+
+    Prints text into the CLI and automatically ends the line.
+
+    \
+    **Arguments:**
+
+    **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
+
+[^3]: **prompt**
+
+    Waits for the user to type something.
+
+    \
+    **Arguments:**
+
+    `prompt` Expects a string.
