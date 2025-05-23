@@ -11,7 +11,7 @@ As a beginner, the Kauri programming language might look intimidating. There's a
 
 Firstly, you'll need to learn what some of the basic functions _are_. They'll be explained in more detail later, but for know, knowing what a function generally does is your best interest.
 
-<table><thead><tr><th width="300.6414794921875">Function</th><th>Usage</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1"><code>print</code></a>, <a data-footnote-ref href="#user-content-fn-2"><code>println</code></a></td><td>Used for printing text onto the screen.</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3"><code>prompt</code></a></td><td>Used to get the user's input.</td></tr><tr><td><code>let</code>, <code>const</code></td><td>Used to create variables.</td></tr><tr><td><code>fn</code></td><td>Used to create a function.</td></tr><tr><td><code>import</code>, <code>import as</code></td><td>Used to import Kauri Extensions (<code>.krx</code> files)</td></tr></tbody></table>
+<table><thead><tr><th width="300.6414794921875">Function</th><th>Usage</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1"><code>print</code></a>, <a data-footnote-ref href="#user-content-fn-2"><code>println</code></a></td><td>Used for printing text onto the screen.</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3"><code>prompt</code></a></td><td>Used to get the user's input.</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-4"><code>let</code></a>, <a data-footnote-ref href="#user-content-fn-5"><code>const</code></a></td><td>Used to create variables.</td></tr><tr><td><code>fn</code></td><td>Used to create a function.</td></tr><tr><td><code>import</code>, <code>import as</code></td><td>Used to import Kauri Extensions (<code>.krx</code> files)</td></tr></tbody></table>
 
 {% hint style="info" %}
 Still confused? Don't worry, as some functions can be clicked on to view more information about them. This will occur in later pages as well, just in case you forget what a certain function does.
@@ -43,3 +43,43 @@ Still confused? Don't worry, as some functions can be clicked on to view more in
     **Arguments:**
 
     `prompt` Expects a string.
+
+[^4]: <kbd>**let**</kbd>
+
+    Defines an immutable variable.
+
+
+
+    **Syntax:**
+
+    `let name: type = value;`&#x20;
+
+
+
+    **Values:**
+
+    `name` Any text starting with a letter and ending with a letter, number, or underscore.
+
+    `type` Any type. Expects `str`, `int`, `float`, `struct`, or `void`.
+
+    `value` Any value or statement that uses the expected type.
+
+[^5]: <kbd>**const**</kbd>&#x20;
+
+    Defines an immutable variable.
+
+
+
+    **Syntax:**
+
+    `const name: type = value;`&#x20;
+
+
+
+    **Values:**
+
+    `name` Any text starting with a letter and ending with a letter, number, or underscore.
+
+    `type` Any type. Expects `str`, `int`, `float`, `struct`, or `void`.
+
+    `value` Any value or statement that uses the expected type.
