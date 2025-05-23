@@ -25,7 +25,7 @@ prompt("Type something: ");
 
 ## Sending Output
 
-To output something, whether it be a variable, equation, or string, you can use the [`print`](#user-content-fn-2)[^2] and `println` functions. Using [`print`](#user-content-fn-2)[^2] will print the value without a newline, while `println` will add a newline at the end.
+To output something, whether it be a variable, equation, or string, you can use the [`print`](#user-content-fn-2)[^2] and [`println`](#user-content-fn-3)[^3] functions. Using [`print`](#user-content-fn-2)[^2] will print the value without a newline, while [`println`](#user-content-fn-3)[^3] will add a newline at the end.
 
 ```typescript
 // Here's some examples of print:
@@ -74,8 +74,13 @@ println("The score value is: <$score>")
     \
     **Arguments:**
 
-    <kbd>text</kbd> <mark style="color:blue;">`string`</mark>&#x20;
+    <kbd>text</kbd> <mark style="color:blue;">`string|expression|variable`</mark>&#x20;
 
-    <kbd>text</kbd> <mark style="color:blue;">`expression`</mark>&#x20;
+[^3]: <kbd>**println**</kbd>
 
-    <kbd>text</kbd> <mark style="color:blue;">`variable`</mark>
+    Prints text into the CLI and automatically ends the line.
+
+    \
+    **Arguments:**
+
+    <kbd>text</kbd> <mark style="color:blue;">`string|expression|variable`</mark>&#x20;
