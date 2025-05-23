@@ -25,7 +25,7 @@ prompt("Type something: ");
 
 ## Sending Output
 
-To output something, whether it be a variable, equation, or string, you can use the [`print`](#user-content-fn-2)[^2] and [`println`](#user-content-fn-3)[^3] functions. Using [`print`](#user-content-fn-4)[^4] will print the value without a newline, while [`println`](#user-content-fn-3)[^3] will add a newline at the end.
+To output something, whether it be a variable, equation, or string, you can use the [`print`](#user-content-fn-2)[^2] and [`println`](#user-content-fn-3)[^3] functions. Using [`print`](#user-content-fn-2)[^2] will print the value without a newline, while [`println`](#user-content-fn-3)[^3] will add a newline at the end.
 
 ```typescript
 // Here's some examples of print:
@@ -49,7 +49,7 @@ println("Hello, World!");
 */
 ```
 
-When printing values, you can also use string interpolation, which will swap out a text segment with a variable. If the variable referenced doesn't exist, or hasn't been defined before the statement has been executed, it will replace the section with `void`.
+When printing values, you can also use string interpolation, which will swap out a text segment with a variable. If the variable referenced doesn't exist, or hasn't been defined before the statement has been executed, it will replace the section with [`void`](#user-content-fn-4)[^4].
 
 ```typescript
 // This will print the value of the "score" variable along with some text.
@@ -65,7 +65,7 @@ println("The score value is: <$score>");
     \
     **Arguments:**
 
-    <kbd>prompt</kbd> <mark style="color:blue;">`string`</mark>
+    `prompt` Expects a string.
 
 [^2]: <kbd>**print**</kbd>
 
@@ -74,7 +74,7 @@ println("The score value is: <$score>");
     \
     **Arguments:**
 
-    **`text`** Any string, expression, or variable. Can add multiple by separating with commas.
+    **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
 
 [^3]: <kbd>**println**</kbd>
 
@@ -83,13 +83,8 @@ println("The score value is: <$score>");
     \
     **Arguments:**
 
-    <kbd>text</kbd> <mark style="color:blue;">`string|expression|variable`</mark>&#x20;
+    **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
 
-[^4]: <kbd>**print**</kbd>
+[^4]: <kbd>**void**</kbd>&#x20;
 
-    Prints text into the CLI.
-
-    \
-    **Arguments:**
-
-    <kbd>text</kbd> <mark style="color:blue;">`string|expression|variable`</mark>&#x20;
+    Means that a value could not be found. Returning with `void` means that the code doesn't return any value.

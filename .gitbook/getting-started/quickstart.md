@@ -12,7 +12,7 @@ icon: bullseye-pointer
 The Kauri programming language is designed for creating CLI (Command Line Interface) tools and applications. It takes features from C++, TypeScript, and Python and offers clear and efficient syntax. This allows the language to have easily readable code, even for developers who don't use Kauri.
 
 {% hint style="info" %}
-Want to explore the syntax? Head to the [Basics](../basics/editor.md) section to learn more.
+Want to explore the syntax? Head to the [Basics](../basics/learning-the-basics/editor.md) section to learn more.
 {% endhint %}
 
 ### Installation
