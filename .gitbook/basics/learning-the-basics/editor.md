@@ -15,12 +15,13 @@ Note: Syntax highlighting might be inconsistent.
 
 To get an input, you can use the [`prompt`](#user-content-fn-1)[^1] function. This function can be used with and without a prompt specified, though it is recommended to use a prompt when asking for an input.
 
-<pre class="language-typescript"><code class="lang-typescript">// This will retrieve the user's input without a prompt.
-<strong>prompt();
-</strong>
+```typescript
+// This will retrieve the user's input without a prompt.
+prompt();
+
 // If you want to use a prompt, then you can put a string inside of the parentheses.
 prompt("Type something: ");
-</code></pre>
+```
 
 ## Sending Output
 
