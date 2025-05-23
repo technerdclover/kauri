@@ -53,7 +53,7 @@ When printing values, you can also use string interpolation, which will swap out
 
 ```typescript
 // This will print the value of the "score" variable along with some text.
-println("The score value is: <$score>")
+println("The score value is: <$score>");
 ```
 
 
