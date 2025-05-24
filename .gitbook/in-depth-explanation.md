@@ -39,7 +39,7 @@ Outputs text into the CLI (Command Line Interface) and _**ends the current line.
 &#xNAN;**`println(text);`**\
 \
 **Arguments:**\
-<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
+<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">Req<mark style="color:green;"><kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
 \
 **Examples:**\
 &#xNAN;**`println("Hello", "World!");`** \
@@ -58,7 +58,7 @@ Waits for an input from the user.\
 &#xNAN;**`prompt(text);`**\
 \
 **Arguments:**\
-<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
+<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">Req<mark style="color:green;"><kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
 \
 **Examples:**\
 &#xNAN;**`prompt("Type", "Something: ");`** \
