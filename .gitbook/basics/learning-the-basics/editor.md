@@ -75,9 +75,8 @@ println("The score value is: <$score>");
 
     **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
 
-
-
-    [#print](../../in-depth-explanation.md#print "mention")
+    \
+    [<sub>View More</sub>](../../in-depth-explanation.md#print)
 
 [^3]: <kbd>**println**</kbd>
 
