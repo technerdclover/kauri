@@ -50,7 +50,7 @@ Outputs text into the CLI (Command Line Interface) and _**ends the current line.
 
 <details>
 
-<summary>prompt</summary>
+<summary><strong>prompt</strong></summary>
 
 Waits for an input from the user.\
 \
