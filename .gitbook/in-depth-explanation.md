@@ -20,7 +20,7 @@ Outputs text into the CLI (Command Line Interface) and _**does not**_ end the li
 &#xNAN;**`print(text);`**\
 \
 **Arguments:**\
-<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [string<sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or variable. You can string together multiple `text` arguments by separating them with commas.\
+<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
 \
 **Examples:**\
 &#xNAN;**`print("Hello", "World!");`** \
@@ -39,7 +39,7 @@ Outputs text into the CLI (Command Line Interface) and _**ends the current line.
 &#xNAN;**`println(text);`**\
 \
 **Arguments:**\
-<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [string](in-depth-explanation.md#string-str), expression, or variable. You can string together multiple `text` arguments by separating them with commas.\
+<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
 \
 **Examples:**\
 &#xNAN;**`println("Hello", "World!");`** \
@@ -58,7 +58,7 @@ Waits for an input from the user.\
 &#xNAN;**`prompt(text);`**\
 \
 **Arguments:**\
-<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [string](in-depth-explanation.md#string-str) or variable. You can string together multiple `text` arguments by separating them with commas.\
+<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
 \
 **Examples:**\
 &#xNAN;**`prompt("Type", "Something: ");`** \
