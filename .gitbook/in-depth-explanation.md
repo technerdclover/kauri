@@ -1,7 +1,8 @@
 ---
 description: >-
   This page is dedicated to giving pure in-depth explanation for every function
-  and type that's defined inside of the Kauri programming language.
+  and type that's defined inside of the Kauri programming language. Any argument
+  with an R or O means Required or Optional.
 icon: code-simple
 ---
 
@@ -38,7 +39,7 @@ Outputs text into the CLI (Command Line Interface) and _**ends the current line.
 &#xNAN;**`println(text);`**\
 \
 **Arguments:**\
-<kbd>**text**</kbd> <sup><kbd><mark style="color:orange;">R<mark style="color:orange;"><kbd></sup> Expects any [string](in-depth-explanation.md#string-str), expression, or variable. You can string together multiple `text` arguments by separating them with commas.\
+<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [string](in-depth-explanation.md#string-str), expression, or variable. You can string together multiple `text` arguments by separating them with commas.\
 \
 **Examples:**\
 &#xNAN;**`println("Hello", "World!");`** \
@@ -47,7 +48,24 @@ Outputs text into the CLI (Command Line Interface) and _**ends the current line.
 
 </details>
 
+<details>
 
+<summary>prompt</summary>
+
+Waits for an input from the user.\
+\
+**Syntax:**\
+&#xNAN;**`prompt(text);`**\
+\
+**Arguments:**\
+<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">R<mark style="color:green;"><kbd></sup> Expects any [string](in-depth-explanation.md#string-str) or variable. You can string together multiple `text` arguments by separating them with commas.\
+\
+**Examples:**\
+&#xNAN;**`prompt("Type", "Something: ");`** \
+&#xNAN;**`prompt("ID", name);`** \
+&#xNAN;**`prompt(x);`**
+
+</details>
 
 
 
@@ -55,14 +73,14 @@ Outputs text into the CLI (Command Line Interface) and _**ends the current line.
 
 <details>
 
-<summary><strong>String</strong> <sup><kbd>str</kbd></sup></summary>
+<summary><strong>Float</strong> <sup><kbd>float</kbd></sup></summary>
 
-References a `string` type. A `string` type starts and ends with a double-quote (`"`). It matches the closest double-quote, meaning that it will only match until the next double-quote is found.\
+References a `float` type. A `float` type is any decimal number, negative or positive. This is _**only**_ matched when the `float` is isolated or not part of a `variable`.\
 \
 **Examples:**\
-`"Hello, World!"` \
-`"This is a string!"` \
-`"Score: <$score>"`
+`3.14159` \
+`6.28318` \
+`50.3`
 
 </details>
 
@@ -81,14 +99,14 @@ References an `integer` type. An `integer` type is any whole number, negative or
 
 <details>
 
-<summary><strong>Float</strong> <sup><kbd>float</kbd></sup></summary>
+<summary><strong>String</strong> <sup><kbd>str</kbd></sup></summary>
 
-References a `float` type. A `float` type is any decimal number, negative or positive. This is _**only**_ matched when the `float` is isolated or not part of a `variable`.\
+References a `string` type. A `string` type starts and ends with a double-quote (`"`). It matches the closest double-quote, meaning that it will only match until the next double-quote is found.\
 \
 **Examples:**\
-`3.14159` \
-`6.28318` \
-`50.3`
+`"Hello, World!"` \
+`"This is a string!"` \
+`"Score: <$score>"`
 
 </details>
 
@@ -104,3 +122,12 @@ References a `variable` type. A `variable` type is any string of characters star
 `Person3`
 
 </details>
+
+<details>
+
+<summary><strong>Void</strong> <sup><kbd>void</kbd></sup></summary>
+
+References a `void` type. A `void` type either means that a value doesn't exist (getting `void` when using string interpolation) or a function doesn't return anything (if used as a return type in a function).
+
+</details>
+

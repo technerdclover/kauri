@@ -26,6 +26,9 @@ Still confused? Don't worry, as some functions can be clicked on to view more in
 
     **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
 
+    \
+    [View More](../../in-depth-explanation.md#print)
+
 [^2]: <kbd>**println**</kbd>
 
     Prints text into the CLI and automatically ends the line.
@@ -35,6 +38,10 @@ Still confused? Don't worry, as some functions can be clicked on to view more in
 
     **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
 
+
+
+    [View More](../../in-depth-explanation.md#println)
+
 [^3]: <kbd>**prompt**</kbd>
 
     Waits for the user to type something.
@@ -43,6 +50,10 @@ Still confused? Don't worry, as some functions can be clicked on to view more in
     **Arguments:**
 
     `prompt` Expects a string.
+
+
+
+    View More
 
 [^4]: <kbd>**let**</kbd>
 

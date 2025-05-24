@@ -25,9 +25,10 @@ prompt("Type something: ");
 
 ## Sending Output
 
-To output something, whether it be a variable, equation, or string, you can use the [`print`](#user-content-fn-2)[^2] and [`println`](#user-content-fn-3)[^3] functions. Using [`print`](#user-content-fn-4)[^4] will print the value without a newline, while [`println`](#user-content-fn-3)[^3] will add a newline at the end.
+To output something, whether it be a variable, equation, or string, you can use the [`print`](#user-content-fn-2)[^2] and [`println`](#user-content-fn-3)[^3] functions. Using [`print`](#user-content-fn-2)[^2] will print the value without a newline, while [`println`](#user-content-fn-3)[^3] will add a newline at the end.
 
-<pre class="language-typescript"><code class="lang-typescript">// Here's some examples of <a data-footnote-ref href="#user-content-fn-4">print</a>:
+```typescript
+// Here's some examples of print:
 print(x); // Assumes that x has a value, we'll touch on that later.
 print(3 + 3, 9 - 3);
 print("Hello, World!");
@@ -36,7 +37,7 @@ print("Hello, World!");
     void6Hello, World!
 */
 
-// Using <a data-footnote-ref href="#user-content-fn-3">println</a> works the same way, simply swap it out.
+// Using println works the same way, simply swap it out.
 println(x);
 println(3 + 3, 9 - 3);
 println("Hello, World!");
@@ -46,9 +47,9 @@ println("Hello, World!");
     6
     Hello, World!
 */
-</code></pre>
+```
 
-When printing values, you can also use string interpolation, which will swap out a text segment with a variable. If the variable referenced doesn't exist, or hasn't been defined before the statement has been executed, it will replace the section with [`void`](#user-content-fn-5)[^5].
+When printing values, you can also use string interpolation, which will swap out a text segment with a variable. If the variable referenced doesn't exist, or hasn't been defined before the statement has been executed, it will replace the section with [`void`](#user-content-fn-4)[^4].
 
 ```typescript
 // This will print the value of the "score" variable along with some text.
@@ -64,7 +65,11 @@ println("The score value is: <$score>");
     \
     **Arguments:**
 
-    `prompt` Expects a string.
+    `text` Expects a string.
+
+
+
+    [View More](../../in-depth-explanation.md#prompt)
 
 [^2]: <kbd>**print**</kbd>
 
@@ -87,15 +92,12 @@ println("The score value is: <$score>");
 
     **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
 
-[^4]: <kbd>**print**</kbd>
 
-    Prints text into the CLI.
 
+    [View More](../../in-depth-explanation.md#println)
+
+[^4]: <kbd>**void**</kbd>&#x20;
+
+    Means that a value could not be found. Returning with `void` means that the code doesn't return any value.\
     \
-    **Arguments:**
-
-    **`text`** Expects any string, expression, or variable. Can add multiple by separating with commas.
-
-[^5]: <kbd>**void**</kbd>&#x20;
-
-    Means that a value could not be found. Returning with `void` means that the code doesn't return any value.
+    [View More](../../in-depth-explanation.md#void-void)
