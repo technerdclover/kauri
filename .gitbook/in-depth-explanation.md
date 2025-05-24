@@ -20,7 +20,7 @@ Outputs text into the CLI (Command Line Interface) and _**does not**_ end the li
 &#xNAN;**`print(text);`**\
 \
 **Arguments:**\
-<kbd>**text**</kbd> <sup><kbd>`Req`<kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
+<kbd>**text**</kbd> <sup><kbd><mark style="color:green;">Req<mark style="color:green;"><kbd></sup> Expects any [String <sup><kbd>str<kbd></sup>](in-depth-explanation.md#string-str), expression, or [Variable <sup><kbd>var<kbd></sup>](in-depth-explanation.md#variable-var). You can string together multiple `text` arguments by separating them with commas.\
 \
 **Examples:**\
 &#xNAN;**`print("Hello", "World!");`** \
