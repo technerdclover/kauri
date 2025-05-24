@@ -77,7 +77,7 @@ println("The score value is: <$score>");
 
 
 
-    <a href="../../in-depth-explanation.md#print" class="button secondary">View More</a>
+    [#print](../../in-depth-explanation.md#print "mention")
 
 [^3]: <kbd>**println**</kbd>
 
