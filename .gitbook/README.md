@@ -1,4 +1,7 @@
 ---
+description: >-
+  Welcome to the Kauri Documentation page!  This page is dedicated to showing
+  off how Kauri works, and how you can create your own Kauri scripts.
 icon: hand-wave
 cover: .gitbook/assets/input-onlinepngtools.png
 coverY: -76
@@ -9,7 +12,7 @@ layout:
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
@@ -19,8 +22,6 @@ layout:
 ---
 
 # Welcome
-
-Welcome to the Kauri Documentation page!  This page is dedicated to showing off how Kauri works, and how you can create your own Kauri scripts.
 
 ### Jump right in
 
