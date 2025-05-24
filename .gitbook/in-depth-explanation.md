@@ -2,7 +2,7 @@
 description: >-
   This page is dedicated to giving pure in-depth explanation for every function
   and type that's defined inside of the Kauri programming language. Any argument
-  with an R or O means Required or Optional.
+  with Req or Opt means Required or Optional.
 icon: code-simple
 ---
 
