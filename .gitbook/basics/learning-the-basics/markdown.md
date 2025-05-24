@@ -62,7 +62,9 @@ const x: int = 8; // x is now set to 8
 
     `type` Any type. Common types include `str`, `int`, `float`, `struct`, and `void`.
 
-    `value` Any value or statement that uses the expected type.
+    `value` Any value or statement that uses the expected type.\
+    \
+    [View More](../../in-depth-explanation.md#let)
 
 [^2]: <kbd>**const**</kbd>
 
@@ -82,4 +84,6 @@ const x: int = 8; // x is now set to 8
 
     `type` Any type. Common types include `str`, `int`, `float`, `struct`, and `void`.
 
-    `value` Any value or statement that uses the expected type.
+    `value` Any value or statement that uses the expected type.\
+    \
+    [View More](../../in-depth-explanation.md#const)
