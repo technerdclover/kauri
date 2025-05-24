@@ -12,6 +12,10 @@
   * [Basic I/O](basics/learning-the-basics/editor.md)
   * [Variable Assignment](basics/learning-the-basics/markdown.md)
 
+***
+
+* [In-Depth Explanation](in-depth-explanation.md)
+
 ## &#x20; <a href="#github" id="github"></a>
 
 * [GitHub Repository](https://github.com/technerdclover/kauri)

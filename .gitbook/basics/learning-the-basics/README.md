@@ -46,7 +46,7 @@ Still confused? Don't worry, as some functions can be clicked on to view more in
 
 [^4]: <kbd>**let**</kbd>
 
-    Defines an immutable variable.
+    Defines a mutable variable.
 
 
 
@@ -60,7 +60,7 @@ Still confused? Don't worry, as some functions can be clicked on to view more in
 
     `name` Any text starting with a letter and ending with a letter, number, or underscore.
 
-    `type` Any type. Expects `str`, `int`, `float`, `struct`, or `void`.
+    `type` Any type. Common types include `str`, `int`, `float`, `struct`, and `void`.
 
     `value` Any value or statement that uses the expected type.
 
@@ -80,6 +80,6 @@ Still confused? Don't worry, as some functions can be clicked on to view more in
 
     `name` Any text starting with a letter and ending with a letter, number, or underscore.
 
-    `type` Any type. Expects `str`, `int`, `float`, `struct`, or `void`.
+    `type` Any type. Common types include `str`, `int`, `float`, `struct`, and `void`.
 
     `value` Any value or statement that uses the expected type.
