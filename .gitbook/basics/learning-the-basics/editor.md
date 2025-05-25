@@ -2,14 +2,10 @@
 description: >-
   Input and output in Kauri is simple. In this section, we’ll go over input and
   output, as well as a few ways that they can be used.
-icon: input-text
+icon: subtitles
 ---
 
 # Basic I/O
-
-{% hint style="info" %}
-Note: Syntax highlighting might be inconsistent.
-{% endhint %}
 
 ## Getting Input
 

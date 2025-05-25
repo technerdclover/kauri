@@ -9,6 +9,7 @@
 ## Basics
 
 * [Learning The Basics](basics/learning-the-basics/README.md)
+  * [Basic Types & Math](basics/learning-the-basics/basic-types-and-math.md)
   * [Basic I/O](basics/learning-the-basics/editor.md)
   * [Variable Assignment](basics/learning-the-basics/markdown.md)
 

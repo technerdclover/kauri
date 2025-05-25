@@ -2,7 +2,7 @@
 description: >-
   Input and output in Kauri is simple. In this section, we’ll go over input and
   output, as well as all of the various ways that they can be used.
-icon: block-quote
+icon: superscript
 ---
 
 # Variable Assignment
